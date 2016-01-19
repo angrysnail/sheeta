@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+ <modules>
+	<module class="com.angrysnail.sheeta.svgeditor.io.module.IOModule" />
+	
+	<module class="com.angrysnail.sheeta.svgeditor.MemoryMonitorModule" />
+	<module class="com.angrysnail.sheeta.svgeditor.actions.clipboard.ClipboardModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.undoredo.UndoRedoModule" />
+	<module class="com.angrysnail.sheeta.svgeditor.options.OptionsModule" />
+
+	<module class="com.angrysnail.sheeta.svgeditor.shape.RectangleShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.shape.EllipseShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.shape.path.PathShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.shape.ImageShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.shape.GroupShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.shape.text.TextShape"/>
+	<module class="com.angrysnail.sheeta.svgeditor.selection.SelectionModule"/>
+
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.AlignModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.CenterOnCanvasModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.DistributeModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.FlipModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.RotateModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.SameDimensionsModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.OrderModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.PathOperationsModule"/>
+	<module class="com.angrysnail.sheeta.svgeditor.actions.dom.CanvasSizeModule"/>
+	
+	<module class="com.angrysnail.sheeta.svgeditor.AboutModule" />
+	<module class="com.angrysnail.sheeta.svgeditor.DOMViewerModule" />
+
+	<module class="com.angrysnail.sheeta.svgeditor.display.canvas.zoom.ZoomModule" />
+	<module class="com.angrysnail.sheeta.svgeditor.display.canvas.rulers.RulersModule" />
+	<module class="com.angrysnail.sheeta.svgeditor.display.canvas.grid.GridModule" />
+
+	<module class="com.angrysnail.sheeta.svgeditor.properties.SVGProperties" />
+	<module class="com.angrysnail.sheeta.svgeditor.visualresources.SVGVisualResources" />
+
+	<module class="com.angrysnail.sheeta.rtdaeditor.shape.RtdaViewShape" />
+	<module class="com.angrysnail.sheeta.rtdaeditor.shape.RtdaWidgetShape" />
+	<module class="com.angrysnail.sheeta.rtdaeditor.colorchooser.RtdaColorChooserModule" />
+	<module class="com.angrysnail.sheeta.rtdaeditor.dbeditor.DataBaseEditorModule" />
+	<module class="com.angrysnail.sheeta.rtdaeditor.jwidget.JWidgetManager" />
+	<module class="com.angrysnail.sheeta.rtdaeditor.anim.components.RtdaAnimationsAndActionsModule" />
+</modules>
+

@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.angrysnail.sheeta.svgeditor.EditorApplet
+Class-Path: Libraries.jar, mysql.jar
